@@ -1,0 +1,28 @@
+@import '~@sl-codeblaster/react-3d-animated-card/dist/index.css';
+
+.About-header {
+  background-color:rgb(139, 179, 3);
+ }
+
+.About-main {
+  min-height: 95vh;
+}
+
+.d1{
+  height: 100%;
+  width: 100%;
+ }
+
+.d2{
+  height: 100%;
+  width: 100%;
+ }
+
+.d3{
+  height: 100%;
+  width: 100%;
+ }
+
+.About-footer {
+  min-height: 5vh;
+}

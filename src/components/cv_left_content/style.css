@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster+Two|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Asap|Raleway+Dots|Roboto+Mono|Raleway|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+
+.clc_main{
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+    padding-top: 9%;
+}
+
+.clc_container{
+  padding: 0;
+  
+}
+
+.clc_header{
+  text-align: center;
+  /* font-family: 'Sulphur Point', sans-serif; */
+  font-family: 'VT323', monospace;
+}
+
+.clc_sub_header{
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'VT323', monospace;
+}
+
+.clc_paragraph{
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'VT323', monospace;
+
+}
+
+.AboutBtnContainer{
+  width: 100%;
+}
+
+.left{
+  width: 33%;
+  float: left;
+  text-align: center;
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'VT323', monospace;
+  font-weight: 900;
+  color: aliceblue;
+}
+
+.right{
+  width: 33%;
+  float: right;
+  text-align: center;
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'VT323', monospace;
+  font-weight: 900;
+}
+
+.center{
+  width: 33%;
+  float: right;
+  text-align: center;
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'VT323', monospace;
+  font-weight: 900;
+}
+
+.center a{
+  color:white;
+}
+
+
+.right_icon{
+  font-size: 100px;
+  font-family: 'VT323', monospace;
+}
+
+.right_icon:hover{
+  color: #18a106;
+  cursor: pointer;
+}
+
+.left_icon{
+font-size: 100px;
+}
+
+.center_icon{
+  font-size: 100px;
+  }
+
+.left_icon:hover{
+  color: #18a106;
+  cursor: pointer;
+}
+
+.modal-exit-btn span{
+  font-family: 'VT323' monospace;
+}
+
+.modal-exit-btn{
+  
+  width: 70%;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  border-radius: 12px;
+  outline: none;
+  border:none;
+  box-shadow: 0 0.1rem 1rem rgba(0,0,0,0.175);
+
+}
+.modal-exit-btn:focus{
+  outline: none;
+}
+
+.about_modal{
+  background-color: rgb(118, 192, 20);
+}
+
+.custom-modal{
+  width: 100VW;
+  height: 100VH;
+}
+
+.modal-exit-btn:hover{
+  background-color:#3ca50b;
+  color: seashell;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 1.5rem rgba(0,0,0,0.275);
+}
+
+.modalHeader{
+  background-color:white;
+  color: black !important;
+}
+
+.close{
+  color: black;
+}
+
+.parrafo-me{
+  font-family: 'VT323', monospace;
+}
+
+@media(min-width: 972px){
+  .clc_container{
+    margin-top:7%;
+    margin-bottom:17%;
+  }
+}
+
+@media(min-width: 1025px){
+  .clc_container{
+    margin-top:17%;
+  }
+}
+@media(max-width:550px){
+  .parrafo-me{
+    line-height: 1.2;
+  }
+  .left_icon{
+    font-size: 50px;
+  }
+  .right_icon{
+    font-size: 50px;
+  }
+
+  .center_icon{
+    font-size: 50px;
+    }
+  .AboutBtnContainer{
+    margin-bottom: 20px;
+  }
+}

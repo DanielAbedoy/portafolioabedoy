@@ -1,0 +1,29 @@
+  .home-right{
+    height: 100%;
+  }
+
+  .home-right-main{
+    height: 100%;
+    padding-top: 5rem;
+  }
+
+  .home-right-main-img{
+      height: 60vh;
+      margin: auto;    
+      display: block;
+      box-shadow: 0 1rem 3rem rgba(0,0,0,.375);
+  }
+
+  .home-right-footer{
+     width: 95%;
+  }
+
+  .col-right{
+    padding:0px;
+  }
+
+  @media(max-width: 576px){
+    .home-right-main-img{
+      height: 45vh;
+    }
+  }

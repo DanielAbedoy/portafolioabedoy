@@ -1,0 +1,14 @@
+
+body, html {
+  margin: 0;
+  height: 100%;
+  font-family: 'VT323', monospace;
+  -webkit-font-smoothing: 'VT323', monospace;
+  -moz-osx-font-smoothing: 'VT323', monospace;
+}
+
+code {
+  font-family: 'VT323', monospace;
+}
+
+

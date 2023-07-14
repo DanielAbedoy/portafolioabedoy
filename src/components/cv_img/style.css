@@ -1,0 +1,24 @@
+.cv_img_mouse{
+  cursor: zoom-in;
+  width: 40%;
+  max-height: 95vh;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.675)
+}
+ @media(max-width:540px){
+   .cv_img_mouse{
+     width: 70%;
+     margin: 0 auto;
+     margin-top: 7%;
+   }
+ }
+
+
+
+@media(min-width: 1025px){
+  .cv_img_mouse{
+    margin-top: 8%;
+    width: 80%;
+  }
+}
+
+

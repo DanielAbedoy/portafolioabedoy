@@ -1,0 +1,30 @@
+
+.About-header {
+  background-color:rgb(139, 179, 3);
+ }
+
+.About-main {
+  min-height: 95vh;
+  background-color:rgb(139, 179, 3);
+}
+
+.d1{
+  height: 100%;
+  width: 100%;
+ }
+
+.d2{
+  height: 100%;
+  width: 100%;
+ }
+
+.d3{
+  height: 100%;
+  width: 100%;
+ }
+
+.About-footer {
+  min-height: 5vh;
+  background-color:rgb(139, 179, 3);
+  color: white;
+}
